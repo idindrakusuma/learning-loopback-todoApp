@@ -35,10 +35,11 @@
     "dataSource": "db",
     "public": false
   },
-  "Message": {
-    "dataSource": null
-  },
   "Todos": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Categories": {
     "dataSource": "db",
     "public": true
   }

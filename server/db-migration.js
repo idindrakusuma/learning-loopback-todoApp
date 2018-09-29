@@ -8,6 +8,7 @@ var lbTables = [
   'RoleMapping',
   'Role',
   'Todos',
+  'Categories',
 ];
 
 ds.automigrate(lbTables, function(er) {
