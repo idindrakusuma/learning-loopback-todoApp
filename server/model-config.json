@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "Todos": {
-    "dataSource": "mysql",
+    "dataSource": "db",
     "public": true
   }
 }
