@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "start-watch": "nodemon .",
     "posttest": "npm run lint"
   },
   "dependencies": {
