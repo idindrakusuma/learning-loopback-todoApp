@@ -1,12 +1,4 @@
 {
-  "db": {
-    "host": "localhost",
-    "port": 3306,
-    "url": "",
-    "database": "belajar_todoApp",
-    "password": "password",
-    "name": "db",
-    "user": "belajar",
-    "connector": "mysql"
-  }
+  "db": {}
 }
+
