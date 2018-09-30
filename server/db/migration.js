@@ -1,4 +1,6 @@
-const server = require('./server');
+'use strict';
+
+const server = require('../server');
 const ds = server.dataSources.db;
 
 var lbTables = [
@@ -11,8 +13,8 @@ var lbTables = [
   'Categories',
 ];
 
-ds.automigrate(lbTables, function(er) {
+ds.autoupdate(lbTables, function(er) {
   if (er) throw er;
-  console.log('Loopback tables [' + lbTables + '] created in ', ds.adapter.name);
+  console.log(`Loopback tables ['${lbTables}] created in `, ds.adapter.name);
   ds.disconnect();
 });
